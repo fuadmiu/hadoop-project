@@ -13,7 +13,6 @@ import org.apache.hadoop.mapreduce.Mapper;
 import org.apache.log4j.Logger;
 
 public class Map extends Mapper<LongWritable, Text, Text, IntWritable> {
-    private static int count = 0;
     private Text word = new Text();
     private HashMap<String, Integer> hashMap;
     private Logger logger = Logger.getLogger(WordCountInMapperMain.class);

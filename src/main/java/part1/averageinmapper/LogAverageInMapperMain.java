@@ -18,7 +18,7 @@ public class LogAverageInMapperMain {
         // Check for existing output, remove if exists
         Helper.removeOutputDir(args[1], conf);
 
-        Job job = new Job(conf, "InMapperwordcount");
+        Job job = new Job(conf, "Average computation with in mapper");
         job.setJarByClass(LogAverageInMapperMain.class);
 
         job.setMapOutputKeyClass(Text.class);

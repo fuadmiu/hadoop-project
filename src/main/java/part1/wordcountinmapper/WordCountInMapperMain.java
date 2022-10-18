@@ -18,7 +18,7 @@ public class WordCountInMapperMain {
         // Check for existing output, remove if exists
         Helper.removeOutputDir(args[1], conf);
 
-        Job job = new Job(conf, "InMapperwordcount");
+        Job job = new Job(conf, "Word count with In mapper");
         job.setJarByClass(WordCountInMapperMain.class);
 
         job.setOutputKeyClass(Text.class);

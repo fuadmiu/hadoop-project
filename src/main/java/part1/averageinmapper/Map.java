@@ -13,7 +13,6 @@ import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Mapper;
 
 public class Map extends Mapper<LongWritable, Text, Text, Pair> {
-    private final static IntWritable one = new IntWritable(1);
     private Text word = new Text();
     private HashMap<String, Pair> hashMap;
 
@@ -61,8 +60,7 @@ public class Map extends Mapper<LongWritable, Text, Text, Pair> {
                     hashMap.put(ip, pair);
                 } else {
                     hashMap.put(ip, new Pair(new IntWritable(count), new IntWritable(1)));
-                }
-                //context.write(new Text(ip), new IntWritable(count));
+                }                
             }
 
         }
