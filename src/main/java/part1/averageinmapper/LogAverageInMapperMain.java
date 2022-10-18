@@ -1,4 +1,4 @@
-package part1.wordcount;
+package part1.averageinmapper;
 
 import common.Helper;
 import org.apache.hadoop.fs.Path;
@@ -10,7 +10,7 @@ import org.apache.hadoop.mapreduce.lib.input.TextInputFormat;
 import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 import org.apache.hadoop.mapreduce.lib.output.TextOutputFormat;
 
-public class WordCountMain {
+public class LogAverageInMapperMain {
 
     public static void main(String[] args) throws Exception {
         Configuration conf = new Configuration();
@@ -18,11 +18,14 @@ public class WordCountMain {
         // Check for existing output, remove if exists
         Helper.removeOutputDir(args[1], conf);
 
-        Job job = new Job(conf, "wordcount");
-        job.setJarByClass(WordCountMain.class);
+        Job job = new Job(conf, "InMapperwordcount");
+        job.setJarByClass(LogAverageInMapperMain.class);
+
+        job.setMapOutputKeyClass(Text.class);
+        job.setMapOutputValueClass(Pair.class);
 
         job.setOutputKeyClass(Text.class);
-        job.setOutputValueClass(IntWritable.class);
+        job.setOutputValueClass(DoubleWritable.class);
 
         job.setMapperClass(Map.class);
         job.setReducerClass(Reduce.class);

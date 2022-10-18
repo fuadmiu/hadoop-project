@@ -5,12 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="33ef8876-98df-4997-884d-611616e41c1d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/part1/wordcount/Map.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/part1/wordcount/Map.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/part1/wordcount/WordCountMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/part1/wordcount/WordCountMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/part1/wordcountinmapper/Map.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/part1/wordcountinmapper/Map.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/part1/wordcountinmapper/WordCountInMapperMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/part1/wordcountinmapper/WordCountInMapperMain.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +58,8 @@
       <option name="presentableId" value="Default" />
       <updated>1666051412514</updated>
       <workItem from="1666051414005" duration="6822000" />
-      <workItem from="1666058690476" duration="4224000" />
+      <workItem from="1666058690476" duration="4951000" />
+      <workItem from="1666103251592" duration="861000" />
     </task>
     <servers />
   </component>
