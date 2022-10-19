@@ -6,10 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="33ef8876-98df-4997-884d-611616e41c1d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/part1/wordcount/Map.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/part1/wordcount/Map.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/part1/wordcount/WordCountMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/part1/wordcount/WordCountMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/part1/wordcountinmapper/Map.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/part1/wordcountinmapper/Map.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/part1/wordcountinmapper/WordCountInMapperMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/part1/wordcountinmapper/WordCountInMapperMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/common/Helper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/common/Helper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/part2/PairMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/part2/PairMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/part2/util/ItemSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/common/ItemSet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/part2/util/Util.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +59,9 @@
       <updated>1666051412514</updated>
       <workItem from="1666051414005" duration="6822000" />
       <workItem from="1666058690476" duration="4951000" />
-      <workItem from="1666103251592" duration="861000" />
+      <workItem from="1666103251592" duration="2712000" />
+      <workItem from="1666136198364" duration="6493000" />
+      <workItem from="1666143379186" duration="3906000" />
     </task>
     <servers />
   </component>

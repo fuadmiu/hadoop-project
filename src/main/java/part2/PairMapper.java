@@ -1,12 +1,12 @@
 package part2;
 
+import common.Helper;
 import org.apache.hadoop.io.IntWritable;
 import org.apache.hadoop.io.LongWritable;
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Mapper;
-import part2.util.ItemSet;
+import common.ItemSet;
 import part2.util.Pair;
-import part2.util.Util;
 
 import java.io.IOException;
 import java.util.HashMap;
@@ -23,7 +23,7 @@ public class PairMapper extends Mapper<LongWritable, Text, Pair, IntWritable> {
 
     @Override
     public void map(LongWritable lineOffset, Text line, Context context) {
-        List<ItemSet> itemSets = Util.getItemSets(line.toString());
+        List<ItemSet> itemSets = Helper.getItemSets(line.toString());
         for(ItemSet itemSet: itemSets) {
             for(String item : itemSet.getWindow()) {
                 aggregate(itemSet.getU(), item);

@@ -1,10 +1,10 @@
-package part2.util;
+package common;
 
 import java.util.List;
 
 public class ItemSet {
-    private String u;
-    private List<String> window;
+    private final String u;
+    private final List<String> window;
 
     public ItemSet(String u, List<String> window) {
         this.u = u;
