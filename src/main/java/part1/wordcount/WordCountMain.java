@@ -18,7 +18,7 @@ public class WordCountMain {
         // Check for existing output, remove if exists
         Helper.removeOutputDir(args[1], conf);
 
-        Job job = new Job(conf, "wordcount");
+        Job job = new Job(conf, "word Count");
         job.setJarByClass(WordCountMain.class);
 
         job.setOutputKeyClass(Text.class);

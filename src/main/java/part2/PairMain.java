@@ -16,6 +16,7 @@ public class PairMain {
     public static void main(String[] args) throws Exception {
         Configuration conf = new Configuration();
 
+        
         // Check for existing output, remove if exists
         Helper.removeOutputDir(args[1], conf);
 
@@ -35,8 +36,7 @@ public class PairMain {
         job.setOutputFormatClass(TextOutputFormat.class);
 
         FileInputFormat.addInputPath(job, new Path(args[0]));
-        FileOutputFormat.setOutputPath(job, new Path(args[1]));
-
+        FileOutputFormat.setOutputPath(job, new Path(args[1]));  
         job.waitForCompletion(true);
     }
 }
