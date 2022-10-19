@@ -39,7 +39,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/BigData/HadoopProject/input/part1/average",
+    "last_opened_file_path": "C:/BigData/HadoopProject/scripts",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
@@ -48,10 +48,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\BigData\HadoopProject\scripts" />
+      <recent name="C:\BigData\HadoopProject\input\part4" />
       <recent name="C:\BigData\HadoopProject\input\part1\average" />
       <recent name="C:\BigData\HadoopProject\input\part1\wordcount" />
       <recent name="C:\BigData\HadoopProject\input\part3" />
-      <recent name="C:\BigData\HadoopProject\input\part2" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -69,7 +70,7 @@
       <workItem from="1666143379186" duration="4249000" />
       <workItem from="1666192788065" duration="3558000" />
       <workItem from="1666207746139" duration="117000" />
-      <workItem from="1666208153965" duration="1347000" />
+      <workItem from="1666208153965" duration="5843000" />
     </task>
     <servers />
   </component>
