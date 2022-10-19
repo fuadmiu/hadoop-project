@@ -14,6 +14,6 @@ public class Reduce extends Reducer<Text, Pair, Text, DoubleWritable> {
             count += val.count.get();
             total += val.total.get();
         }
-        context.write(key, new DoubleWritable(total / count));
+        context.write(key, new DoubleWritable((double)(total / count)));
     }
 }
