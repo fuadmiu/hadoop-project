@@ -31,3 +31,6 @@ Also, input directory should be in same level with the jar.
 `./part4comparison.sh`
 
 `./part4comparison_stripe.sh`
+
+# Github Repo
+[Please check here](https://github.com/fuadmiu/hadoop-project)
